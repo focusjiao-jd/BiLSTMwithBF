@@ -24,7 +24,7 @@ To reproduce our results and train our models on [SNLI](https://nlp.stanford.edu
 ```bash
 python train_nli.py --bf=1 use bf-balanced(1) or --bf=2 bf-combined(2) 
 ```
-You should obtain a dev accuracy of 85.1 and a test accuracy of **[84.9](https://nlp.stanford.edu/projects/snli/)** with the default setting.
+You should obtain a dev accuracy of 85.1 and a test accuracy of 84.9 with the default setting.
 
 ## Reproduce our results on transfer tasks
 To reproduce our results on transfer tasks, clone [SentEval](https://github.com/facebookresearch/SentEval) and set **PATH_SENTEVAL**, **PATH_TRANSFER_TASKS** in *evaluate_model.py*, then run:
